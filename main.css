@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    border: 1px dashed gray;
+    border: 1px dashed black;
 }
 
 .nav-logo {
@@ -58,6 +58,7 @@ header {
 .jumbotron-content {
     background-color: orange;
     width: 60%;
+    border: 1px dashed black;
 }
 
 
@@ -93,16 +94,86 @@ header {
     background-color: darkred;
     width: 50%;
     height: 400px;
+    border: 1px dashed black;
 }
 
 .small {
     background-color: red;
     width: 30%;
     height: 400px;
+    border: 1px dashed black;
 }
 
 .block {
     background-color: brown;
     width: 80%;
     height: 900px;
+    border: 1px dashed black;
 }
+
+
+/* footer */
+
+
+.first-footer-container {
+    background-color: dimgrey;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-footer{
+    background-color: palevioletred;
+    width: 20%;
+    height: 450px;
+    border: 1px dashed black;
+    margin-top: 10px;
+}
+
+.right-footer {
+    background-color: crimson;
+    width: 60%;
+    height: 450px;
+    margin-top: 10px;
+}
+
+.nav-footer-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-block {
+    flex-basis: 25%;
+    border: 1px dashed white;
+}
+
+
+hr {
+    background-color: lightgrey;
+}
+
+.second-footer-container {
+    background-color: dimgrey;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.second-footer {
+    background-color: #7f0000;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo-footer , .bottone-footer {
+    background-color: #ff6e49;
+    padding: 3px 5px;
+}
+

@@ -59,3 +59,50 @@ header {
     background-color: orange;
     width: 60%;
 }
+
+
+/* contenuto principale */
+
+.first-section ,
+.third-section {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section {
+    height: 500px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section {
+    height: 1000px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    background-color: darkred;
+    width: 50%;
+    height: 400px;
+}
+
+.small {
+    background-color: red;
+    width: 30%;
+    height: 400px;
+}
+
+.block {
+    background-color: brown;
+    width: 80%;
+    height: 900px;
+}
